@@ -1,0 +1,66 @@
+# Zathura configuration file
+# See man `man zathurarc`
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# Zoom In
+map <C-+> zoom in
+
+# Zoom Out
+map <C--> zoom out
+
+# Reset Zoom
+map <C-0> zoom reset
+
+# zathurarc-ayu-mirage
+
+set font "inconsolata 15"
+
+# Background and Foreground
+set default-bg "#1f1f1f" # Ayu Mirage Background
+set default-fg "#e0e0e0" # Ayu Mirage Foreground
+
+# Statusbar
+set statusbar-fg "#e0e0e0" # Ayu Mirage Foreground
+set statusbar-bg "#252525" # Ayu Mirage Dark Background
+
+# Input Bar
+set inputbar-bg "#1f1f1f" # Ayu Mirage Background
+set inputbar-fg "#e0e0e0" # Ayu Mirage Foreground
+
+# Notification Error
+set notification-error-bg "#ff6c6b" # Ayu Mirage Red
+set notification-error-fg "#1f1f1f" # Ayu Mirage Background
+
+# Notification Warning
+set notification-warning-bg "#c3e88d" # Ayu Mirage Green
+set notification-warning-fg "#1f1f1f" # Ayu Mirage Background
+
+# Highlighting
+set highlight-color "rgba(255, 108, 107, 0.5)" # Ayu Mirage Red with 50% transparency
+set highlight-active-color "rgba(195, 232, 141, 0.5)" # Ayu Mirage Green with 50% transparency
+
+# Completion
+set completion-highlight-fg "#1f1f1f" # Ayu Mirage Background
+set completion-highlight-bg "#82aaff" # Ayu Mirage Blue
+
+set completion-bg "#252525" # Ayu Mirage Dark Background
+set completion-fg "#e0e0e0" # Ayu Mirage Foreground
+
+# Notifications
+set notification-bg "#82aaff" # Ayu Mirage Blue
+set notification-fg "#1f1f1f" # Ayu Mirage Background
+
+# Recolor
+set recolor "true"
+set recolor-lightcolor "#1f1f1f" # Ayu Mirage Background
+set recolor-darkcolor "#e0e0e0" # Ayu Mirage Foreground
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+
+set render-loading "false"
+
+# Toggle Fullscreen
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen

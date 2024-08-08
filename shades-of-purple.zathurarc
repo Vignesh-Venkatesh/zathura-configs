@@ -1,0 +1,66 @@
+# Zathura configuration file
+# See man `man zathurarc`
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# Zoom In
+map <C-+> zoom in
+
+# Zoom Out
+map <C--> zoom out
+
+# Reset Zoom
+map <C-0> zoom reset
+
+# zathurarc-shades-of-purple
+
+set font "inconsolata 15"
+
+# Background and Foreground
+set default-bg "#1c1b29" # Shades of Purple Background
+set default-fg "#d3c6e3" # Shades of Purple Foreground
+
+# Statusbar
+set statusbar-fg "#d3c6e3" # Shades of Purple Foreground
+set statusbar-bg "#2e2d3f" # Shades of Purple Dark Background
+
+# Input Bar
+set inputbar-bg "#1c1b29" # Shades of Purple Background
+set inputbar-fg "#d3c6e3" # Shades of Purple Foreground
+
+# Notification Error
+set notification-error-bg "#e46f6f" # Shades of Purple Red
+set notification-error-fg "#1c1b29" # Shades of Purple Background
+
+# Notification Warning
+set notification-warning-bg "#a0d1a3" # Shades of Purple Green
+set notification-warning-fg "#1c1b29" # Shades of Purple Background
+
+# Highlighting
+set highlight-color "rgba(228, 111, 111, 0.5)" # Shades of Purple Red with 50% transparency
+set highlight-active-color "rgba(160, 209, 163, 0.5)" # Shades of Purple Green with 50% transparency
+
+# Completion
+set completion-highlight-fg "#1c1b29" # Shades of Purple Background
+set completion-highlight-bg "#7f9cff" # Shades of Purple Blue
+
+set completion-bg "#2e2d3f" # Shades of Purple Dark Background
+set completion-fg "#d3c6e3" # Shades of Purple Foreground
+
+# Notifications
+set notification-bg "#7f9cff" # Shades of Purple Blue
+set notification-fg "#1c1b29" # Shades of Purple Background
+
+# Recolor
+set recolor "true"
+set recolor-lightcolor "#1c1b29" # Shades of Purple Background
+set recolor-darkcolor "#d3c6e3" # Shades of Purple Foreground
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+
+set render-loading "false"
+
+# Toggle Fullscreen
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen

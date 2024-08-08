@@ -1,0 +1,66 @@
+# Zathura configuration file
+# See man `man zathurarc`
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# Zoom In
+map <C-+> zoom in
+
+# Zoom Out
+map <C--> zoom out
+
+# Reset Zoom
+map <C-0> zoom reset
+
+# zathurarc-vibrant-ink
+
+set font "inconsolata 15"
+
+# Background and Foreground
+set default-bg "#2b2b2b" # Vibrant Ink Background
+set default-fg "#d0d0d0" # Vibrant Ink Foreground
+
+# Statusbar
+set statusbar-fg "#d0d0d0" # Vibrant Ink Foreground
+set statusbar-bg "#1f1f1f" # Vibrant Ink Dark Background
+
+# Input Bar
+set inputbar-bg "#2b2b2b" # Vibrant Ink Background
+set inputbar-fg "#d0d0d0" # Vibrant Ink Foreground
+
+# Notification Error
+set notification-error-bg "#f2777a" # Vibrant Ink Red
+set notification-error-fg "#2b2b2b" # Vibrant Ink Background
+
+# Notification Warning
+set notification-warning-bg "#99cc99" # Vibrant Ink Green
+set notification-warning-fg "#2b2b2b" # Vibrant Ink Background
+
+# Highlighting
+set highlight-color "rgba(242, 119, 122, 0.5)" # Vibrant Ink Red with 50% transparency
+set highlight-active-color "rgba(153, 204, 153, 0.5)" # Vibrant Ink Green with 50% transparency
+
+# Completion
+set completion-highlight-fg "#2b2b2b" # Vibrant Ink Background
+set completion-highlight-bg "#66ccff" # Vibrant Ink Blue
+
+set completion-bg "#1f1f1f" # Vibrant Ink Dark Background
+set completion-fg "#d0d0d0" # Vibrant Ink Foreground
+
+# Notifications
+set notification-bg "#66ccff" # Vibrant Ink Blue
+set notification-fg "#2b2b2b" # Vibrant Ink Background
+
+# Recolor
+set recolor "true"
+set recolor-lightcolor "#2b2b2b" # Vibrant Ink Background
+set recolor-darkcolor "#d0d0d0" # Vibrant Ink Foreground
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+
+set render-loading "false"
+
+# Toggle Fullscreen
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
