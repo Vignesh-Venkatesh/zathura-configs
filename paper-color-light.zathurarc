@@ -1,0 +1,66 @@
+# Zathura configuration file
+# See man `man zathurarc`
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# Zoom In
+map <C-+> zoom in
+
+# Zoom Out
+map <C--> zoom out
+
+# Reset Zoom
+map <C-0> zoom reset
+
+# zathurarc-paper-color-light
+
+set font "inconsolata 15"
+
+# Background and Foreground
+set default-bg "#F5F5F5" # Paper Color Light Background
+set default-fg "#333333" # Paper Color Light Foreground
+
+# Statusbar
+set statusbar-fg "#333333" # Paper Color Light Foreground
+set statusbar-bg "#DDDDDD" # Paper Color Light Statusbar Background
+
+# Input Bar
+set inputbar-bg "#F5F5F5" # Paper Color Light Background
+set inputbar-fg "#333333" # Paper Color Light Foreground
+
+# Notification Error
+set notification-error-bg "#E53935" # Paper Color Light Red
+set notification-error-fg "#F5F5F5" # Paper Color Light Background
+
+# Notification Warning
+set notification-warning-bg "#FDD835" # Paper Color Light Yellow
+set notification-warning-fg "#F5F5F5" # Paper Color Light Background
+
+# Highlighting
+set highlight-color "rgba(255, 87, 34, 0.5)" # Paper Color Light Orange with 50% transparency
+set highlight-active-color "rgba(33, 150, 243, 0.5)" # Paper Color Light Blue with 50% transparency
+
+# Completion
+set completion-highlight-fg "#F5F5F5" # Paper Color Light Background
+set completion-highlight-bg "#4CAF50" # Paper Color Light Green
+
+set completion-bg "#DDDDDD" # Paper Color Light Statusbar Background
+set completion-fg "#333333" # Paper Color Light Foreground
+
+# Notifications
+set notification-bg "#4CAF50" # Paper Color Light Green
+set notification-fg "#F5F5F5" # Paper Color Light Background
+
+# Recolor
+set recolor "true"
+set recolor-lightcolor "#F5F5F5" # Paper Color Light Background
+set recolor-darkcolor "#333333" # Paper Color Light Foreground
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+
+set render-loading "false"
+
+# Toggle Fullscreen
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen

@@ -1,0 +1,66 @@
+# Zathura configuration file
+# See man `man zathurarc`
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# Zoom In
+map <C-+> zoom in
+
+# Zoom Out
+map <C--> zoom out
+
+# Reset Zoom
+map <C-0> zoom reset
+
+# zathurarc-solarized-light
+
+set font "inconsolata 15"
+
+# Background and Foreground
+set default-bg "#FDF6E3" # Solarized Light Background
+set default-fg "#657B83" # Solarized Light Foreground
+
+# Statusbar
+set statusbar-fg "#657B83" # Solarized Light Foreground
+set statusbar-bg "#EEE8D5" # Solarized Light Statusbar Background
+
+# Input Bar
+set inputbar-bg "#FDF6E3" # Solarized Light Background
+set inputbar-fg "#657B83" # Solarized Light Foreground
+
+# Notification Error
+set notification-error-bg "#DC322F" # Solarized Light Red
+set notification-error-fg "#FDF6E3" # Solarized Light Background
+
+# Notification Warning
+set notification-warning-bg "#B58900" # Solarized Light Yellow
+set notification-warning-fg "#FDF6E3" # Solarized Light Background
+
+# Highlighting
+set highlight-color "rgba(203, 75, 22, 0.5)" # Solarized Light Orange with 50% transparency
+set highlight-active-color "rgba(38, 139, 210, 0.5)" # Solarized Light Blue with 50% transparency
+
+# Completion
+set completion-highlight-fg "#FDF6E3" # Solarized Light Background
+set completion-highlight-bg "#859900" # Solarized Light Green
+
+set completion-bg "#EEE8D5" # Solarized Light Statusbar Background
+set completion-fg "#657B83" # Solarized Light Foreground
+
+# Notifications
+set notification-bg "#859900" # Solarized Light Green
+set notification-fg "#FDF6E3" # Solarized Light Background
+
+# Recolor
+set recolor "true"
+set recolor-lightcolor "#FDF6E3" # Solarized Light Background
+set recolor-darkcolor "#657B83" # Solarized Light Foreground
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+
+set render-loading "false"
+
+# Toggle Fullscreen
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
