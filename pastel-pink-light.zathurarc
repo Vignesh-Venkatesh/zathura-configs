@@ -1,0 +1,67 @@
+# Zathura configuration file
+# See man `man zathurarc`
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# Zoom In
+map <C-+> zoom in
+
+# Zoom Out
+map <C--> zoom out
+
+# Reset Zoom
+map <C-0> zoom reset
+
+# zathurarc-pastel-pink-light
+
+set font "inconsolata 15"
+
+# Background and Foreground
+set default-bg "#FCE4EC" # Pastel Pink Background
+set default-fg "#C2185B" # Pastel Pink Foreground
+
+# Statusbar
+set statusbar-fg "#C2185B" # Pastel Pink Foreground
+set statusbar-bg "#F8BBD0" # Pastel Pink Statusbar Background
+
+# Input Bar
+set inputbar-bg "#FCE4EC" # Pastel Pink Background
+set inputbar-fg "#C2185B" # Pastel Pink Foreground
+
+# Notification Error
+set notification-error-bg "#E57373" # Pastel Red
+set notification-error-fg "#FCE4EC" # Pastel Pink Background
+
+# Notification Warning
+set notification-warning-bg "#FFF176" # Pastel Yellow
+set notification-warning-fg "#FCE4EC" # Pastel Pink Background
+
+# Highlighting
+set highlight-color "rgba(255, 105, 180, 0.5)" # Pastel Hot Pink with 50% transparency
+set highlight-active-color "rgba(255, 160, 122, 0.5)" # Pastel Light Salmon with 50% transparency
+
+# Completion
+set completion-highlight-fg "#FCE4EC" # Pastel Pink Background
+set completion-highlight-bg "#FF8A65" # Pastel Coral
+
+set completion-bg "#F8BBD0" # Pastel Pink Statusbar Background
+set completion-fg "#C2185B" # Pastel Pink Foreground
+
+# Notifications
+set notification-bg "#FF8A65" # Pastel Coral
+set notification-fg "#FCE4EC" # Pastel Pink Background
+
+# Recolor
+set recolor "true"
+set recolor-lightcolor "#FCE4EC" # Pastel Pink Background
+set recolor-darkcolor "#C2185B" # Pastel Pink Foreground
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+
+set render-loading "false"
+
+# Toggle Fullscreen
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+

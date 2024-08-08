@@ -1,0 +1,66 @@
+# Zathura configuration file
+# See man `man zathurarc`
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# Zoom In
+map <C-+> zoom in
+
+# Zoom Out
+map <C--> zoom out
+
+# Reset Zoom
+map <C-0> zoom reset
+
+# zathurarc-pastel-mint-light
+
+set font "inconsolata 15"
+
+# Background and Foreground
+set default-bg "#F0F4C3" # Pastel Mint Background
+set default-fg "#004D40" # Pastel Mint Foreground
+
+# Statusbar
+set statusbar-fg "#004D40" # Pastel Mint Foreground
+set statusbar-bg "#C5E1A5" # Pastel Mint Statusbar Background
+
+# Input Bar
+set inputbar-bg "#F0F4C3" # Pastel Mint Background
+set inputbar-fg "#004D40" # Pastel Mint Foreground
+
+# Notification Error
+set notification-error-bg "#FF8A65" # Pastel Coral
+set notification-error-fg "#F0F4C3" # Pastel Mint Background
+
+# Notification Warning
+set notification-warning-bg "#FFEB3B" # Pastel Yellow
+set notification-warning-fg "#F0F4C3" # Pastel Mint Background
+
+# Highlighting
+set highlight-color "rgba(0, 230, 118, 0.5)" # Pastel Green with 50% transparency
+set highlight-active-color "rgba(255, 238, 88, 0.5)" # Pastel Yellow with 50% transparency
+
+# Completion
+set completion-highlight-fg "#F0F4C3" # Pastel Mint Background
+set completion-highlight-bg "#66BB6A" # Pastel Green
+
+set completion-bg "#C5E1A5" # Pastel Mint Statusbar Background
+set completion-fg "#004D40" # Pastel Mint Foreground
+
+# Notifications
+set notification-bg "#66BB6A" # Pastel Green
+set notification-fg "#F0F4C3" # Pastel Mint Background
+
+# Recolor
+set recolor "true"
+set recolor-lightcolor "#F0F4C3" # Pastel Mint Background
+set recolor-darkcolor "#004D40" # Pastel Mint Foreground
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+
+set render-loading "false"
+
+# Toggle Fullscreen
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen

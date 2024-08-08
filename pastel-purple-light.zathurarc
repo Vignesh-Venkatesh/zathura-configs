@@ -1,0 +1,66 @@
+# Zathura configuration file
+# See man `man zathurarc`
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# Zoom In
+map <C-+> zoom in
+
+# Zoom Out
+map <C--> zoom out
+
+# Reset Zoom
+map <C-0> zoom reset
+
+# zathurarc-pastel-purple-light
+
+set font "inconsolata 15"
+
+# Background and Foreground
+set default-bg "#F3E5F5" # Pastel Purple Background
+set default-fg "#6A1B9A" # Pastel Purple Foreground
+
+# Statusbar
+set statusbar-fg "#6A1B9A" # Pastel Purple Foreground
+set statusbar-bg "#E1BEE7" # Pastel Purple Statusbar Background
+
+# Input Bar
+set inputbar-bg "#F3E5F5" # Pastel Purple Background
+set inputbar-fg "#6A1B9A" # Pastel Purple Foreground
+
+# Notification Error
+set notification-error-bg "#CE93D8" # Pastel Lavender
+set notification-error-fg "#F3E5F5" # Pastel Purple Background
+
+# Notification Warning
+set notification-warning-bg "#FFF176" # Pastel Yellow
+set notification-warning-fg "#F3E5F5" # Pastel Purple Background
+
+# Highlighting
+set highlight-color "rgba(179, 157, 219, 0.5)" # Pastel Light Purple with 50% transparency
+set highlight-active-color "rgba(255, 138, 101, 0.5)" # Pastel Light Orange with 50% transparency
+
+# Completion
+set completion-highlight-fg "#F3E5F5" # Pastel Purple Background
+set completion-highlight-bg "#BA68C8" # Pastel Purple
+
+set completion-bg "#E1BEE7" # Pastel Purple Statusbar Background
+set completion-fg "#6A1B9A" # Pastel Purple Foreground
+
+# Notifications
+set notification-bg "#BA68C8" # Pastel Purple
+set notification-fg "#F3E5F5" # Pastel Purple Background
+
+# Recolor
+set recolor "true"
+set recolor-lightcolor "#F3E5F5" # Pastel Purple Background
+set recolor-darkcolor "#6A1B9A" # Pastel Purple Foreground
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+
+set render-loading "false"
+
+# Toggle Fullscreen
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen

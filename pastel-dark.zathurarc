@@ -1,0 +1,66 @@
+# Zathura configuration file
+# See man `man zathurarc`
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# Zoom In
+map <C-+> zoom in
+
+# Zoom Out
+map <C--> zoom out
+
+# Reset Zoom
+map <C-0> zoom reset
+
+# zathurarc-pastel-dark
+
+set font "inconsolata 15"
+
+# Background and Foreground
+set default-bg "#2E3A40" # Pastel Dark Background (Deep Grayish Blue)
+set default-fg "#D1D9E0" # Pastel Dark Foreground (Light Grayish Blue)
+
+# Statusbar
+set statusbar-fg "#D1D9E0" # Pastel Dark Foreground (Light Grayish Blue)
+set statusbar-bg "#3B4C56" # Pastel Dark Statusbar Background (Dark Slate Gray)
+
+# Input Bar
+set inputbar-bg "#2E3A40" # Pastel Dark Background (Deep Grayish Blue)
+set inputbar-fg "#D1D9E0" # Pastel Dark Foreground (Light Grayish Blue)
+
+# Notification Error
+set notification-error-bg "#F28C8C" # Pastel Dark Red
+set notification-error-fg "#2E3A40" # Pastel Dark Background (Deep Grayish Blue)
+
+# Notification Warning
+set notification-warning-bg "#F9E79F" # Pastel Dark Yellow
+set notification-warning-fg "#2E3A40" # Pastel Dark Background (Deep Grayish Blue)
+
+# Highlighting
+set highlight-color "rgba(255, 182, 193, 0.5)" # Pastel Dark Pink with 50% transparency
+set highlight-active-color "rgba(152, 251, 152, 0.5)" # Pastel Dark Green with 50% transparency
+
+# Completion
+set completion-highlight-fg "#2E3A40" # Pastel Dark Background (Deep Grayish Blue)
+set completion-highlight-bg "#B5E7A0" # Pastel Dark Green
+
+set completion-bg "#3B4C56" # Pastel Dark Statusbar Background (Dark Slate Gray)
+set completion-fg "#D1D9E0" # Pastel Dark Foreground (Light Grayish Blue)
+
+# Notifications
+set notification-bg "#B5E7A0" # Pastel Dark Green
+set notification-fg "#2E3A40" # Pastel Dark Background (Deep Grayish Blue)
+
+# Recolor
+set recolor "true"
+set recolor-lightcolor "#2E3A40" # Pastel Dark Background (Deep Grayish Blue)
+set recolor-darkcolor "#D1D9E0" # Pastel Dark Foreground (Light Grayish Blue)
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+
+set render-loading "false"
+
+# Toggle Fullscreen
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen

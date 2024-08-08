@@ -1,0 +1,66 @@
+# Zathura configuration file
+# See man `man zathurarc`
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# Zoom In
+map <C-+> zoom in
+
+# Zoom Out
+map <C--> zoom out
+
+# Reset Zoom
+map <C-0> zoom reset
+
+# zathurarc-pastel-light
+
+set font "inconsolata 15"
+
+# Background and Foreground
+set default-bg "#FDF5E6" # Pastel Light Background (Beige)
+set default-fg "#4B4B4B" # Pastel Light Foreground (Charcoal)
+
+# Statusbar
+set statusbar-fg "#4B4B4B" # Pastel Light Foreground (Charcoal)
+set statusbar-bg "#F5F5F5" # Pastel Light Statusbar Background (Light Gray)
+
+# Input Bar
+set inputbar-bg "#FDF5E6" # Pastel Light Background (Beige)
+set inputbar-fg "#4B4B4B" # Pastel Light Foreground (Charcoal)
+
+# Notification Error
+set notification-error-bg "#F28C8C" # Pastel Light Red
+set notification-error-fg "#FDF5E6" # Pastel Light Background (Beige)
+
+# Notification Warning
+set notification-warning-bg "#F9E79F" # Pastel Light Yellow
+set notification-warning-fg "#FDF5E6" # Pastel Light Background (Beige)
+
+# Highlighting
+set highlight-color "rgba(255, 182, 193, 0.5)" # Pastel Light Pink with 50% transparency
+set highlight-active-color "rgba(152, 251, 152, 0.5)" # Pastel Light Green with 50% transparency
+
+# Completion
+set completion-highlight-fg "#FDF5E6" # Pastel Light Background (Beige)
+set completion-highlight-bg "#B5E7A0" # Pastel Light Green
+
+set completion-bg "#F5F5F5" # Pastel Light Statusbar Background (Light Gray)
+set completion-fg "#4B4B4B" # Pastel Light Foreground (Charcoal)
+
+# Notifications
+set notification-bg "#B5E7A0" # Pastel Light Green
+set notification-fg "#FDF5E6" # Pastel Light Background (Beige)
+
+# Recolor
+set recolor "true"
+set recolor-lightcolor "#FDF5E6" # Pastel Light Background (Beige)
+set recolor-darkcolor "#4B4B4B" # Pastel Light Foreground (Charcoal)
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+
+set render-loading "false"
+
+# Toggle Fullscreen
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
