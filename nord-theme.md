@@ -1,0 +1,69 @@
+```
+# Zathura configuration file
+# See man `man zathurarc`
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# Zoom In
+map <C-+> zoom in
+
+# Zoom Out
+map <C--> zoom out
+
+# Reset Zoom
+map <C-0> zoom reset
+
+# zathurarc-nord
+
+set font "inconsolata 15"
+
+# Background and Foreground
+set default-bg "#2E3440" # Nord 0
+set default-fg "#D8DEE9" # Nord 4
+
+# Statusbar
+set statusbar-fg "#E5E9F0" # Nord 5
+set statusbar-bg "#3B4252" # Nord 1
+
+# Input Bar
+set inputbar-bg "#2E3440" # Nord 0
+set inputbar-fg "#D8DEE9" # Nord 4
+
+# Notification Error
+set notification-error-bg "#BF616A" # Nord 11
+set notification-error-fg "#2E3440" # Nord 0
+
+# Notification Warning
+set notification-warning-bg "#D08770" # Nord 12
+set notification-warning-fg "#2E3440" # Nord 0
+
+# Highlighting
+set highlight-color "#EBCB8B" # Nord 13
+set highlight-active-color "#8FBCBB" # Nord 7
+
+# Completion
+set completion-highlight-fg "#2E3440" # Nord 0
+set completion-highlight-bg "#A3BE8C" # Nord 14
+
+set completion-bg "#3B4252" # Nord 1
+set completion-fg "#E5E9F0" # Nord 5
+
+# Notifications
+set notification-bg "#A3BE8C" # Nord 14
+set notification-fg "#2E3440" # Nord 0
+
+# Recolor
+set recolor "true"
+set recolor-lightcolor "#2E3440" # Nord 0
+set recolor-darkcolor "#D8DEE9" # Nord 4
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+
+set render-loading "false"
+
+# Toggle Fullscreen
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+
+```
