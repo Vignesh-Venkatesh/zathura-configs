@@ -1,0 +1,72 @@
+# Zathura configuration file
+# See man `man zathurarc`
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# Zoom In
+map <C-+> zoom in
+
+# Zoom Out
+map <C--> zoom out
+
+# Reset Zoom
+map <C-0> zoom reset
+
+# zathurarc-one-dark
+
+set font "inconsolata 15"
+
+# Background and Foreground
+set default-bg "#282c34" # One Dark Background
+set default-fg "#abb2bf" # One Dark Foreground
+
+# Statusbar
+set statusbar-fg "#abb2bf" # One Dark Foreground
+set statusbar-bg "#21252b" # One Dark Dark Grey
+
+# Input Bar
+set inputbar-bg "#282c34" # One Dark Background
+set inputbar-fg "#abb2bf" # One Dark Foreground
+
+# Notification Error
+set notification-error-bg "#e06c75" # One Dark Red
+set notification-error-fg "#282c34" # One Dark Background
+
+# Notification Warning
+set notification-warning-bg "#e5c07b" # One Dark Yellow
+set notification-warning-fg "#282c34" # One Dark Background
+
+# Highlighting
+set highlight-color "rgba(128, 203, 196, 0.5)" # One Dark Teal with 50% transparency
+set highlight-active-color "rgba(191, 250, 232, 0.5)" # One Dark Light Green with 50% transparency
+
+# Completion
+set completion-highlight-fg "#282c34" # One Dark Background
+set completion-highlight-bg "#98c379" # One Dark Green
+
+set completion-bg "#21252b" # One Dark Dark Grey
+set completion-fg "#abb2bf" # One Dark Foreground
+
+# Notifications
+set notification-bg "#98c379" # One Dark Green
+set notification-fg "#282c34" # One Dark Background
+
+# Recolor
+set recolor "true"
+set recolor-lightcolor "#282c34" # One Dark Background
+set recolor-darkcolor "#abb2bf" # One Dark Foreground
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+
+set render-loading "false"
+
+# Toggle Fullscreen
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+
+set render-loading "false"
+
+# Toggle Fullscreen
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen

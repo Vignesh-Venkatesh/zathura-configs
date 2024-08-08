@@ -1,0 +1,67 @@
+# Zathura configuration file
+# See man `man zathurarc`
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# Zoom In
+map <C-+> zoom in
+
+# Zoom Out
+map <C--> zoom out
+
+# Reset Zoom
+map <C-0> zoom reset
+
+# zathurarc-gruvbox-dark
+
+set font "inconsolata 15"
+
+# Background and Foreground
+set default-bg "#282828" # Gruvbox Dark 0
+set default-fg "#ebdbb2" # Gruvbox Dark 4
+
+# Statusbar
+set statusbar-fg "#ebdbb2" # Gruvbox Dark 4
+set statusbar-bg "#3c3836" # Gruvbox Dark 1
+
+# Input Bar
+set inputbar-bg "#282828" # Gruvbox Dark 0
+set inputbar-fg "#ebdbb2" # Gruvbox Dark 4
+
+# Notification Error
+set notification-error-bg "#fb4934" # Gruvbox Dark 9
+set notification-error-fg "#282828" # Gruvbox Dark 0
+
+# Notification Warning
+set notification-warning-bg "#fabd2f" # Gruvbox Dark 11
+set notification-warning-fg "#282828" # Gruvbox Dark 0
+
+# Highlighting
+set highlight-color "rgba(181, 137, 0, 0.5)" # Gruvbox Dark 3 (Yellow) with 50% transparency
+set highlight-active-color "rgba(248, 242, 242, 0.5)" # Gruvbox Dark 4 (Light) with 50% transparency
+
+# Completion
+set completion-highlight-fg "#282828" # Gruvbox Dark 0
+set completion-highlight-bg "#8ec07c" # Gruvbox Dark 14
+
+set completion-bg "#3c3836" # Gruvbox Dark 1
+set completion-fg "#ebdbb2" # Gruvbox Dark 4
+
+# Notifications
+set notification-bg "#8ec07c" # Gruvbox Dark 14
+set notification-fg "#282828" # Gruvbox Dark 0
+
+# Recolor
+set recolor "true"
+set recolor-lightcolor "#282828" # Gruvbox Dark 0
+set recolor-darkcolor "#ebdbb2" # Gruvbox Dark 4
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+
+set render-loading "false"
+
+# Toggle Fullscreen
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+

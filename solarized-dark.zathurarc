@@ -1,0 +1,73 @@
+# Zathura configuration file
+# See man `man zathurarc`
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# Zoom In
+map <C-+> zoom in
+
+# Zoom Out
+map <C--> zoom out
+
+# Reset Zoom
+map <C-0> zoom reset
+
+# zathurarc-solarized-dark
+
+set font "inconsolata 15"
+
+# Background and Foreground
+set default-bg "#002b36" # Solarized Dark Background
+set default-fg "#839496" # Solarized Dark Foreground
+
+# Statusbar
+set statusbar-fg "#839496" # Solarized Dark Foreground
+set statusbar-bg "#073642" # Solarized Dark Dark Grey
+
+# Input Bar
+set inputbar-bg "#002b36" # Solarized Dark Background
+set inputbar-fg "#839496" # Solarized Dark Foreground
+
+# Notification Error
+set notification-error-bg "#dc322f" # Solarized Dark Red
+set notification-error-fg "#002b36" # Solarized Dark Background
+
+# Notification Warning
+set notification-warning-bg "#b58900" # Solarized Dark Yellow
+set notification-warning-fg "#002b36" # Solarized Dark Background
+
+# Highlighting
+set highlight-color "rgba(181, 137, 0, 0.5)" # Solarized Dark Yellow with 50% transparency
+set highlight-active-color "rgba(203, 75, 22, 0.5)" # Solarized Dark Red with 50% transparency
+
+# Completion
+set completion-highlight-fg "#002b36" # Solarized Dark Background
+set completion-highlight-bg "#859900" # Solarized Dark Green
+
+set completion-bg "#073642" # Solarized Dark Dark Grey
+set completion-fg "#839496" # Solarized Dark Foreground
+
+# Notifications
+set notification-bg "#859900" # Solarized Dark Green
+set notification-fg "#002b36" # Solarized Dark Background
+
+# Recolor
+set recolor "true"
+set recolor-lightcolor "#002b36" # Solarized Dark Background
+set recolor-darkcolor "#839496" # Solarized Dark Foreground
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+
+set render-loading "false"
+
+# Toggle Fullscreen
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+
+
+set render-loading "false"
+
+# Toggle Fullscreen
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen

@@ -1,0 +1,72 @@
+# Zathura configuration file
+# See man `man zathurarc`
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# Zoom In
+map <C-+> zoom in
+
+# Zoom Out
+map <C--> zoom out
+
+# Reset Zoom
+map <C-0> zoom reset
+
+# zathurarc-dracula
+
+set font "inconsolata 15"
+
+# Background and Foreground
+set default-bg "#282a36" # Dracula Background
+set default-fg "#f8f8f2" # Dracula Foreground
+
+# Statusbar
+set statusbar-fg "#f8f8f2" # Dracula Foreground
+set statusbar-bg "#44475a" # Dracula Dark Grey
+
+# Input Bar
+set inputbar-bg "#282a36" # Dracula Background
+set inputbar-fg "#f8f8f2" # Dracula Foreground
+
+# Notification Error
+set notification-error-bg "#ff5555" # Dracula Red
+set notification-error-fg "#282a36" # Dracula Background
+
+# Notification Warning
+set notification-warning-bg "#f1fa8c" # Dracula Yellow
+set notification-warning-fg "#282a36" # Dracula Background
+
+# Highlighting
+set highlight-color "rgba(255, 121, 198, 0.5)" # Dracula Pink with 50% transparency
+set highlight-active-color "rgba(139, 233, 253, 0.5)" # Dracula Blue with 50% transparency
+
+# Completion
+set completion-highlight-fg "#282a36" # Dracula Background
+set completion-highlight-bg "#50fa7b" # Dracula Green
+
+set completion-bg "#44475a" # Dracula Dark Grey
+set completion-fg "#f8f8f2" # Dracula Foreground
+
+# Notifications
+set notification-bg "#50fa7b" # Dracula Green
+set notification-fg "#282a36" # Dracula Background
+
+# Recolor
+set recolor "true"
+set recolor-lightcolor "#282a36" # Dracula Background
+set recolor-darkcolor "#f8f8f2" # Dracula Foreground
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+
+set render-loading "false"
+
+# Toggle Fullscreen
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+
+set render-loading "false"
+
+# Toggle Fullscreen
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
